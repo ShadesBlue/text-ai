@@ -1,0 +1,11 @@
+flask
+pandas
+numpy
+scipy
+scikit-learn
+statsmodels
+seaborn
+matplotlib
+requests
+gunicorn
+pyreadstat
