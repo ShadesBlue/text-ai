@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text to Stats AI</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<h1 class="title">Text-to-Statistics AI</h1>
+
+<div class="glass">
+    <input type="file" id="file">
+    <button onclick="upload()">Upload</button>
+</div>
+
+<div class="glass">
+    <textarea id="command" placeholder="Type or speak..."></textarea>
+    <button onclick="run()">Analyze</button>
+    <button onclick="startVoice()">🎤</button>
+</div>
+
+<div id="loading" style="display:none">Analyzing...</div>
+
+<div id="output" class="glass"></div>
+
+<script src="/static/js/app.js"></script>
+
+</body>
+</html>
